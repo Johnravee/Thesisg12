@@ -1,0 +1,118 @@
+
+
+/* History Form style for users */
+
+*{
+ padding: 0;
+ margin: 0;
+ font-family: 'Encode Sans Semi Condensed', sans-serif;
+ font-weight: bold;
+  box-sizing: border-box;
+}
+body{
+height: 200vh;
+}
+
+
+header{
+  background-color: teal;
+  height: 4cm;
+  width: 100%;
+}
+
+header img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: none;
+  margin-left: 20px;
+  float: left;
+  margin-top: 10px;
+ 
+}
+
+header h1{
+  padding-top: 20px;
+  padding-left: 150px;
+  color: white;
+}
+
+
+
+.form h2{
+  text-align: center;
+  padding: 50px;
+}
+
+
+
+.container{
+  display: block;
+  text-align: center;
+}
+
+.input-box{display: block;
+justify-content: center;
+align-items:center}
+
+label[for=fullname]{
+  font-size: 20px;}
+
+input[type=text]{
+  font-size: 16px;
+  padding: 10px;
+  width: 26%;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  }
+
+label[for=contact]{
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  
+}
+
+
+input[type=tel]{
+  font-size: 16px;
+  
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  padding: 10px;
+}
+
+label{display: inline;
+inset-inline-start:inherit;
+}
+
+label[for="reason"]{
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+
+
+button{
+ margin-top: 10px;
+  padding: 5px;
+  border-radius:5px ;
+  border: 2px solid gray;
+  cursor: pointer;
+
+
+}
+
+button:hover{color: skyblue;}
+button:active{color:black}
+
+input[type=checkbox]{
+  padding: 10px;
+  margin-left: 10px;
+}
+
+
+#recent-illnes{
+  width: 60%;
+}

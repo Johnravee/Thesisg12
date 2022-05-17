@@ -1,0 +1,107 @@
+
+/* Registration Style */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-weight: bold;
+}
+
+
+header{
+    background-color: teal;
+    height: 4cm;
+
+}
+
+header img{
+    height: 100px;
+    width: 100px;
+    float: left;
+   margin-left: 30px;
+    padding-top: 10px;
+    border-radius: 50%;
+
+}
+
+header h1{
+    color: #ffff;
+    padding-top: 20px;
+    padding-left: 150px;
+
+
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 40px;
+    border: 1px solid black;
+    margin-top: 2cm;
+    width: auto;
+    box-shadow: 10px 10px 52px 0px rgba(184,156,156,0.75);
+-webkit-box-shadow: 10px 10px 52px 0px rgba(184,156,156,0.75);
+-moz-box-shadow: 10px 10px 52px 0px rgba(184,156,156,0.75);
+}
+
+
+
+.input-box{
+     margin-bottom: 10px;
+     text-align: center;
+     
+}
+
+input[type=text]{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid gray ;
+
+
+}
+
+input[type=email]{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid gray ;
+}
+
+input[type=password]{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid gray ;
+}
+
+
+.usertype{
+    margin-bottom: 10px;
+    
+}
+
+.usertype select{
+    font-size: 15px;
+    width: 80%;
+    
+   
+
+}
+
+input[type=submit]{
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+input[type=submit]:hover{color: skyblue;}
+
+input[type=submit]:active{color: white;}

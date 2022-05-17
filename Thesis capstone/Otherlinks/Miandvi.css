@@ -1,0 +1,53 @@
+
+/* Mission and Vission Style */
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-weight: bold;
+   box-sizing: border-box;
+ }
+ 
+ body{
+ height: 120vh;
+ }
+ 
+ 
+ header{
+   background-color: teal;
+   height: 4cm;
+ }
+ 
+ header img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   border: none;
+   margin-left: 20px;
+   float: left;
+   margin-top: 10px;
+  
+ }
+ 
+ header h1{
+   padding-top: 20px;
+   padding-left: 150px;
+   color: white;
+ }
+
+body{
+  height: 50vh;
+}
+
+ section >h2{
+   padding :40px;
+ }
+
+ .Mission{
+   padding: 40px;
+ }
+
+ .Vission{
+   padding: 40px;
+ }
